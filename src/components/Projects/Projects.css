@@ -1,0 +1,39 @@
+
+.display-4.mt-5.text-center {
+    font-family: 'Poppins'; font-weight: 500;
+}
+p.card-text.text-secondary {
+    word-spacing: 4px;
+}
+.card.border-0.bg-white{
+    height: 35rem;
+}
+div.card.border-0.bg-white:hover{
+    box-shadow: 0px 40px 50px rgb(125, 124, 124) !important;
+    transition: all 0.3s;
+}
+img.d-flex.justify-content-center.image {
+    margin-left: 23rem !important;
+    margin-top: 12rem;
+}
+.d-flex.justify-content-center.mt-5.fs-4.fw-bold {
+    font-family: Montserrat;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .display-5.mt-5.text-center {
+        margin-top: 8rem !important;
+        font-size: 3rem;
+    }
+    .card.border-0.bg-white.shadow {
+        margin-top: 5rem;
+    }
+    .w-25.portfolio.ms-4 {
+        width: 18rem !important;
+    }
+   
+    img.d-flex.justify-content-center.image {
+        margin-left: -6rem !important;
+    }
+}

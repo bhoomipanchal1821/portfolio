@@ -1,0 +1,42 @@
+.form-control:focus {
+  border-color: #ced4da;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.display-5.mt-5 {
+  font-family: Poppins;
+  font-weight: 500;
+}
+.fs-4.mt-3.text-center {
+  font-family: Montserrat;
+}
+textarea#form4Example3 {
+  border-radius: 2rem;
+}
+input#form4Example1 {
+  border-radius: 2rem;
+}
+button.btn.btn-lg.fs-6 {
+  background: linear-gradient(39.97deg, #6aabd2 0.79%, #b7cfdc 79.29%);
+  border-radius: 2rem;
+}
+.row.contact {
+  text-align: center;
+}
+img.position-absolute.bottom-0 {
+  z-index: -1;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  img.position-absolute.bottom-0 {
+    display: none;
+  }
+  img.position-absolute.top-0.end-0 {
+    top: 50rem !important;
+}
+.d-flex.justify-content-center.mt-5.fs-4.fw-bold {
+  font-family: Montserrat;
+  margin-top: 19rem !important;
+}
+}

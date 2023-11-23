@@ -1,0 +1,17 @@
+.modal-dialog.position-absolute.top-50.start-50.translate-middle.bg-light.modal-md {
+  background: linear-gradient(39.97deg, #e9dac4 0.79%, #cfb2b0 79.29%);
+  font-family: "Poppins", sans-serif;
+}
+
+.modal-overlay{
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+

@@ -1,0 +1,92 @@
+.main-left {
+  width: 50%;
+  position: relative;
+}
+h1.text-center.mt-5.display-4 {
+  font-family: "Poppins";
+}
+.breadcrumb.d-flex.justify-content-center.mt-3.fs-4 {
+  font-family: Montserrat;
+}
+.text-overlay.ms-5.mt-3 {
+  font-family: Poppins;
+}
+.display-5.mt-5 {
+  font-family: Poppins;font-weight: 500;
+}
+.display-4.mt-5 {
+  font-weight: 500;
+}
+.main-right {
+  width: 50%;
+}
+.conatiner-fluid {
+  width: 100%;
+}
+.fs-3.fw-bold.mt-5.ms-5 {
+  margin-left: 4rem !important;
+}
+.text-overlay.ms-5.mt-3 {
+  width: 44rem;
+  position: absolute;
+  top: 0;
+  font-family: Poppins;
+}
+
+img.abt_img {
+  position: relative;
+  left: -0.6rem;
+  width: 70rem;
+  height: 63rem;
+}
+.fs-3.fw-bold.position-absolute.bottom-0.start-50 {
+  top: 66rem;  
+}
+.fs-3.fw-bold.d-flex.justify-content-center {
+  font-family: Montserrat;
+}
+img.about_me_image {
+  position: absolute;
+  top: 24rem;
+  left: 70.6rem;
+  width: 40rem;
+  margin-left: 4rem;
+}
+
+.fs-3.fw-bold.d-flex.justify-content-center {
+  margin-top: -3rem;
+  position: relative;
+}
+/* media Query */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h1.display-5.text-center.mt-5 {
+    margin-top: 8rem !important;
+    font-size: 3rem;
+}
+
+img.abt_img {
+  width: 28rem;
+    height: 52rem;
+    top: 33rem;
+}
+.fs-3.fw-bold.d-flex.justify-content-center {
+  position: absolute;
+  top: 86rem;
+  margin-left: 3.5rem;
+}
+.text-overlay.ms-5.mt-3 {
+  margin-left: 0rem !important;
+  width: 22rem;
+}
+.fs-3.fw-bold.d-flex.justify-content-center {
+  position: absolute;
+  top: 127rem;
+  margin-left: 3.5rem;
+}
+img.about_me_image {
+  position: absolute;
+  top: 109rem;
+  left: 0;
+  width: 14rem;
+}
+}

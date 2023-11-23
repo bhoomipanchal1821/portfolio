@@ -1,0 +1,54 @@
+.skills {
+  overflow: hidden;
+}
+.display-5.mt-5 {
+  font-family: Poppins;
+  font-weight: 500;
+}
+.conatiner.position-relative {
+  left: 9%;
+}
+
+.d-flex.justify-content-center.flex-column {
+  position: relative;
+}
+
+img.skill_main {
+  position: absolute;
+  right: 0;
+}
+img.gif_img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 34rem;
+
+}
+.position-absolute.end-50 {
+  bottom: 14rem;
+}
+.position-absolute.end-50.fs-4.fw-bold {
+  font-family: Montserrat;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .conatiner.position-relative {
+    left: 2%;
+  }
+  img.w-25 {
+    width: 75%!important;
+}
+img.position-absolute.bottom-0 {
+ 
+  top: 35rem;
+}
+.position-absolute.end-50.fs-4.fw-bold {
+  top: 56rem;
+  width: 50%;
+  left: 8rem;
+}
+img.gif_img {
+  
+  top: 34rem;
+
+}
+}

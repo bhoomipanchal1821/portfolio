@@ -1,0 +1,47 @@
+.container-fluid.d-flex.justify-content-center.flex-column {
+  background: linear-gradient(39.97deg, #6aabd2 0.79%, #b7cfdc 79.29%);
+  overflow-y: auto;
+  min-height: 100vh;
+}
+h1.display-3.fw-bolder.mt-5.text-light.fst-normal {
+  font-family: "Poppins";
+}
+
+.text-light.mt-3.fst-normal {
+  font-family: Poppins;
+}
+
+button.btn.btn-lg.btn-light.rounded-5.fst-normal.border-0 {
+  width: 18rem;
+}
+.btn {
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+button.btn.btn-lg.btn-info.rounded-5.text-light.fst-normal {
+  width: 18rem;
+  box-sizing: border-box;
+}
+.btn:hover {
+  box-shadow: 1px 10px 32px rgba(0, 0, 0, 0.45);
+  transition: all 0.3s ease-in-out;
+}
+
+/* media Query */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .row.text-center.button {
+    margin-top: 2rem;
+    margin-right: 18rem;
+  }
+  h1.display-3.fw-bolder.mt-5.text-light.fst-normal {
+    margin-top: 8rem !important;
+  }
+
+  button.btn.btn-lg.btn-info.ms-2.rounded-5.text-light.fst-normal {
+    margin-top: 2rem;
+    width: 17rem;
+  }
+  img.bg-image.w-25.mx-auto {
+    width: 20rem !important;
+  }
+}
